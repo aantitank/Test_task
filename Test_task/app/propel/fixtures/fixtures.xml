@@ -1,0 +1,14 @@
+<Fixtures>
+    <Article Namespace="AppBundle\Model">
+        <b1  Title="My title1" Abstract="Abstract1" Date="17.12.1991" Text="Text1" Activity="1"  />
+        <b2  Title="My title2" Abstract="Abstract2" Date="17.12.1992" Text="Text2" Activity="0"  />
+        <b3  Title="My title3" Abstract="Abstract3"  Date="17.12.1993" Text="Text3" Activity="1"  />
+        <b4  Title="My title4" Abstract="Abstract4"  Date="17.12.1994" Text="Text4" Activity="1"  />
+        <b5  Title="My title5" Abstract="Abstract5"  Date="17.12.1995" Text="Text5" Activity="1"  />
+        <b6  Title="My title6" Abstract="Abstract6"  Date="17.12.1996" Text="Text6" Activity="1"  />
+        <b7  Title="My title7" Abstract="Abstract7"  Date="17.12.1997" Text="Text7" Activity="0"  />
+        <b8  Title="My title8" Abstract="Abstract8"  Date="17.12.1998" Text="Text8" Activity="1"  />
+        <b9  Title="My title9" Abstract="Abstract9"  Date="17.12.1999" Text="Text9" Activity="0"  />
+        <b10  Title="My title10" Abstract="Abstract10" Date="17.12.2000" Text="Text10" Activity="1"  />
+    </Article>
+</Fixtures>

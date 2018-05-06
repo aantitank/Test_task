@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+     <h5 class="pad">Your path: /show/{{ article.id }}<br/> <br/>Main characteristics:</h5>
+            <table class="table">
+            <thead></thead>
+            <tbody >
+            <tr>
+            <th scope="row">Abstract </th> <td>{{ article.abstract }}</td>
+            </tr>
+            <tr>
+            <th scope="row">Date</th><td>{{ article.date |date("m/d/Y")}}</td>
+            </tr>
+            <tr>
+            <th scope="row">Activity</th><td>{{ article.activity |number_format }}</td>
+            </tr>
+            </tbody>
+    </table>
+    <p>FullText<p/>
+    <br/>
+    <p>{{ article.text }}</p>
+    <a href="{{ path('news_index') }}">Back to home</a>
+{% endblock %}

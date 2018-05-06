@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% form_theme form 'bootstrap_3_layout.html.twig' %}
+    <div class="form-control">
+        {{ form_start(form, {'method': 'POST'}) }}
+        {{ form_row(form.title) }}
+        {{ form_row(form.abstract) }}
+        {{ form_row(form.date) }}
+        {{ form_row(form.text) }}
+        {{ form_row(form.activity) }}
+        <input type = "submit" name = "submit" value = "Submit">
+        {{ form_end(form)}}
+    </div>
+
+{% endblock %}
