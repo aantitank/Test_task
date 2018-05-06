@@ -1,15 +1,10 @@
-Symfony Standard Edition
-========================
-
-**WARNING**: This distribution does not support Symfony 4. See the
-[Installing & Setting up the Symfony Framework][15] page to find a replacement
-that fits you best.
-
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
-
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+Общее описание проделанной работы
+--------------
+Был написан тестовый сайт для хранения, добавления новостей. Использовались Symfony 3.4, Propel 2, Bootstrap, Twig, OpenServer. Основные функции доступные на сайте: поиск по характеристикам новости, CRUD функции. 
+Почему Symfony 3.4?
+--------------
+Symfony 3.4 была выбрана, потому что я неделю не мог понять как интегрировать Symfony и Propel и какие версиииспользовать, а пример интеграции Symfony с Propel нашёл на Symfony 3. Понимаю что сейчас актуальная версия Symfony 4 и надо с этим разобраться, хотя проблем недолжно возникнуть. 
+Мои вопросы
 
 What's inside?
 --------------
