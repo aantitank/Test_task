@@ -1,73 +1,32 @@
+Тестовое задание
+========================================================
+
+ТЗ
+-------------------------------------------------
+1.Поставить Open Server https://ospanel.io/
+2.Поставить symfony http://symfony.com/, обязательно используя менеджер пакетов composer
+3.Поставить бандл propel orm, опять же через композер
+4.Сделать базу данных для хранения Новостей. Одна таблица, поля таблицы: Название, Краткое описание, Дата, Полный текст, Активность(bool, отвечает за то выводить новость или нет)
+5.Вывести список новостей с пагинацией. Список записей получить используя propel. http://propelorm.org/documentation/03-basic-crud.html
+
 Общее описание проделанной работы
-======================================
-Был написан тестовый сайт для хранения, добавления новостей. Использовались Symfony 3.4, Propel 2, Bootstrap, Twig, OpenServer. Основные функции доступные на сайте: поиск по характеристикам новости, CRUD функции. 
+------------------------------------
+Был написан тестовый сайт для хранения, добавления новостей. Использовались Symfony 3.4, Propel 2, Bootstrap, Twig, OpenServer. Основные функции доступные на сайте: поиск по характеристикам новости, CRUD функции. Однако на сайте отсутствует толком фильтрация, экранирование, обратка исключениямми входных данных, так как в ТЗ не было ничего про это сказано.
 
-Почему Symfony 3.4?
+Мне понравилось выполнять задание - фреймворки действительно облегчают разработку. Надеюсь следующее задание познакомит с тестированием и безопасным написанием кода, потому что я боюсь выпускать свой код в продакшн.
+
+Почему Symfony 3.4 и какие проблемы были
 --------------
-Symfony 3.4 была выбрана, потому что я неделю не мог понять как интегрировать Symfony и Propel и какие версиииспользовать, а пример интеграции Symfony с Propel нашёл на Symfony 3. Понимаю что сейчас актуальная версия Symfony 4 и надо с этим разобраться, хотя проблем недолжно возникнуть. 
-Мои вопросы
+Я неделю не мог понять как интегрировать Symfony и Propel из-за отсутствия в документации чётко прописанной структуры проекта, так как все операции по конфигурированию моделей(сущностей) предопределены под структуру проектов Symfony. Пример интеграции Symfony с Propel нашёл на Symfony 3. Понимаю что сейчас актуальная версия Symfony 4 и надо с этим разобраться, хотя проблем недолжно возникнуть. 
 
-What's inside?
+В остальном проблем не было. Все те мелкие проблемы, что возникали решались без каких либо сложностей
+
+Мои вопросы:
 --------------
+  * Почему в качестве orm Propel? Так как стабильной версии бандла на Symfony3 и 4 нет, хотя пагинация чертовски удобная.
 
-The Symfony Standard Edition is configured with the following defaults:
+  * С чем ещё работает бэкенд ? Так как я познакомился с маленькой частью вашего стека технологий, а использование Propel немного, необычно, на мой взгляд, из-за не очень большой известности.
 
-  * An AppBundle you can use to start coding;
-
-  * Twig as the only configured template engine;
-
-  * Doctrine ORM/DBAL;
-
-  * Swiftmailer;
-
-  * Annotations enabled for everything.
-
-It comes pre-configured with the following bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
-
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
-
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
-
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
-
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
-
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
-
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
-
-Enjoy!
-
-[1]:  https://symfony.com/doc/3.4/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.4/doctrine.html
-[8]:  https://symfony.com/doc/3.4/templating.html
-[9]:  https://symfony.com/doc/3.4/security.html
-[10]: https://symfony.com/doc/3.4/email.html
-[11]: https://symfony.com/doc/3.4/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
-[15]: https://symfony.com/doc/current/setup.html
+ Договор о прохождении практики
+ -----------------------------
+ Наконец моя кафедра выдала договор о прохождении практики и сообщила дату начала практики. Практика начинается с 28 мая и продлится примерно месяц, а дальше сессия 2-3 недели. Договор о прохождении практики отправил в отдел кадров. Хочу и дальше развиваться в этом направлении. 
